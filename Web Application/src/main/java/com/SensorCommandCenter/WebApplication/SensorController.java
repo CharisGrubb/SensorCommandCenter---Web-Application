@@ -6,22 +6,19 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 
 @Controller
-public class UserController {
+public class SensorController {
 
 
-
-    @GetMapping("/users")
-    public String getUsers(Model model) {
+        @GetMapping("/sensors")
+    public String getSensors(Model model) {
         model.addAttribute("something", "This is a val");
-        return "users";
+        return "Sensors";
     }
 
-    @GetMapping("/user")
-    public String getUser(Model model) {
+    @GetMapping("/sensor")
+    public String getSensor(Model model) {
         model.addAttribute("something", "This is a val");
-        return "User Details";
+        return "Sensor details";
     }
-
-
-
+    
 }
