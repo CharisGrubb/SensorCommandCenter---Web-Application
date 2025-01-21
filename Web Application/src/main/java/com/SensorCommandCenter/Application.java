@@ -1,4 +1,5 @@
-package com.SensorCommandCenter.WebApplication;
+package com.SensorCommandCenter;
+
 
 import java.util.Arrays;
 
